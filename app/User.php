@@ -89,7 +89,7 @@ class User extends Model implements AuthenticatableContract,
     
     public function have_items()
     {
-        return $this->items()->where('type', 'want');
+        return $this->items()->where('type', 'have');
     }
     
     public function have($itemId)
