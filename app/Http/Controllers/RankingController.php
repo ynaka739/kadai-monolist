@@ -104,4 +104,5 @@ class RankingController extends Controller
             'items' => $items,
         ]);
     }
+
 }

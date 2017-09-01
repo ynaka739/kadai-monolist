@@ -87,7 +87,7 @@ class ItemUserController extends Controller
         //
     }
     
-        public function want()
+    public function want()
     {
         $itemCode = request()->itemCode;
 

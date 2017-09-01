@@ -40,7 +40,6 @@ class ItemsController extends Controller
                 'hits' => 20,
             ]);
 
-            // 扱い易いように Item としてインスタンスを作成する（保存はしない）
             foreach ($rws_response->getData()['Items'] as $rws_item) {
                 $item = new Item();
                 $item->code = $rws_item['Item']['itemCode'];
